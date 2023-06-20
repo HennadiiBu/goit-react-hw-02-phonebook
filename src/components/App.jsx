@@ -1,12 +1,10 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import ContactForm from './ContactForm/ContactForm';
 import Filter from './Filter/Filter';
 import ContactList from './ContactList/ContactList';
 import { nanoid } from 'nanoid';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-const mass = [];
 
 const load = () => {
   try {
