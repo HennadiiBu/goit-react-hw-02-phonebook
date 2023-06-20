@@ -2,7 +2,9 @@ import React from 'react';
 import style from './ContactList.module.css'
 
 function ContactList({ contactsList, deleteContact }) {
+
   return (
+
     <div>
       <ul>
         {contactsList.map(({ id, name, number }) => {
